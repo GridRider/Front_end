@@ -1,5 +1,40 @@
+The following will be updates for each days:
+
 #What i already know
+-java(8/10)
+-spring(6/10)
+-springBoot(6/10)
+-react(6/10)
+-springMVC(5/10)
+-sql(5/10)
+-html(5/10)
+-css(3/10)
+-jdbc(3/10)
+-git(4/10)
+
 
 #Day1(Dec 12, 2023):
--html
--
+-html(vishnu)
+-git
+-html tags
+-html attribute
+-html elements
+-html styles
+	-<p>
+	-<h1>
+	-<style=">
+		-background-color
+		-text-align
+		-font-size
+		-font-family
+		-color
+
+	-<a href="">
+	-<img src=""alt="" >
+	-<pre>
+	-<li>
+	-<ol>
+	-<ul>
+	-<picture>
+
+
