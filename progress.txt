@@ -37,4 +37,31 @@ The following will be updates for each days:
 	-<ul>
 	-<picture>
 
+#Day2(Dec 13,2013):
+
+-html table structure
+-html input fields
+-checkbox
+-radio buttons
+
+	-<table>
+	-<th>
+	-<td>
+	-<tr>
+	-border
+	-border-collapse
+	-<label>
+	-<form action>
+	-<input type>
+	-<select id="" name="" size"" multiple>
+	-<option value>
+	-<textarea name="" rows="" cols="">
+	-<button type=""
+	-onclick
+	-<fieldset>
+	-<legend>
+	-<input list>
+	-<datalist>
+	-oninput
+	-range
 
