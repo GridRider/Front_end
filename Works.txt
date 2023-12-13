@@ -13,3 +13,41 @@ Assigned Date: Dec 12 2023
 	d. An about page containing your image, some details about you , with some discription about the site.
 	e. One contact us page that contains a form having fields for mail, message, subject etc. and a send button.
 NOTE: The navbar and footer should be present in all the pages. 
+
+2. Personal Portfolio website
+-A header and footer section should be present on the portfolio page. 
+-A menu highlighting your contact details along with an image, employment history, and personal information will be included in the header area. 
+-You can provide a brief description of your professional background and hobbies along with your photo at the top of the page. 
+-You can add a few work samples after this summary.
+
+3.A register page and a login page:
+Register page:
+-The register page should contain a form with fields of name, phone number, phone, Address etc
+-In the form there should be check boxes , selection option, radio button etc.
+-After clicking submit  a login page should load up 
+
+4. FINAL HTML PROJECT:
+Any application for enterprises like HR management/Sales management/CRM etc
+
+a. Home page having:
+    Header with logo & company name , two nav buttons:
+        - To Register
+        - To navigate to About US page
+    background image
+    Some tagline over the background image
+    One section mentioning "Our customers" showing logos of major companies using the product
+    
+        
+b. Registration page:
+    Basic info like Organisation name, email, office address, password etc
+    html based form validation only
+    Form submission
+    
+
+c. About US page
+    More details about the company
+    Subsections like maybe (with representative images)
+        Headerquarters info, office locations
+        Founders info etc
+        
+    Footer with details -> customer care number, email etc
