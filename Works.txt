@@ -1,0 +1,15 @@
+HTML Only projects:
+Assigned Date: Dec 12 2023
+
+1. Recipie page :[HTML only]
+-Create recipies for three food items.
+-The incredients , steps etc should be ordered list with necessary numbering
+-Images for incredients and dish should be provided alongside the list
+-Give the site a name and logo . it should be shown above navbar in all pages.
+-There should be proper routing th pages are listed below:
+	a. Home page having a background image, Navbar(list of links for now),footer containing contact us.
+	b. The dishes should be listed as links in home page.
+	c. Different pages for the three dishes that will open up when the link in the home page is clicked.
+	d. An about page containing your image, some details about you , with some discription about the site.
+	e. One contact us page that contains a form having fields for mail, message, subject etc. and a send button.
+NOTE: The navbar and footer should be present in all the pages. 
