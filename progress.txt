@@ -37,7 +37,7 @@ The following will be updates for each days:
 	-<ul>
 	-<picture>
 
-#Day2(Dec 13,2013):
+#Day2(Dec 13,2023):
 
 -html table structure
 -html input fields
@@ -65,3 +65,14 @@ The following will be updates for each days:
 	-oninput
 	-range
 
+#Day3(Dec 14,2023):
+
+	-started working on reciepi book project
+	-created page home.html
+	-recipie1.html
+	-recipie2.html
+	-recipie3.html
+	-about.html
+	-contact.html
+	-Added navBar header and footer to all the pages
+	-added details to section home,recipie1,recipie2,recipie3
