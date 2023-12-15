@@ -1,1 +1,0 @@
-Please delete this file after creating the html file.
