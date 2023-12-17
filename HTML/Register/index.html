@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register page</title>
+</head>
+<body>
+  <form>
+    <label for="fname">FirstName :</label>
+    <input type="text" id="fname" name="fname" required>
+    <br>
+    <br>
+    <label for="mname">MiddleName :</label>
+    <input type="text" id="mname" name="fname">
+    <br>
+    <br>
+    <label for="lname">LastName :</label>
+    <input type="text" id="lname" name="lname" required>
+    <br>
+    <br>
+    <label for="phone">MobileNumber :</label>
+    <input type="tel" id="phone" name="phone" required>
+    <br>
+    <br>
+    <label for="address">Address:</label>
+    <input type="text" id="address" name="address" required>
+    <br>
+    <br>
+    <!-- check boxes , selection option, radio button etc -->
+   <label for="state">Select your State:</label>
+   <select name="state" id="state">
+    <option value="kerala">KERALA</option>
+    <option value="karnataka">KARNATAKA</option>
+    <option value="maharastra">MAHARASTRA</option>
+    <option value="bihar">BIHAR</option>
+    <option value="goa">GOA</option>
+    <option value="assam">ASSAM</option>
+   </select>
+    <p><b>Known programming languages:</b></p>
+    <form >
+        <input type="checkbox" id="java" name="programminglanguage" value="JAVA">
+        <label for="java">JAVA</label><br>
+        <input type="checkbox" id="python" name="programminglanguage" value="PYTHON">
+        <label for="python">PYTHON</label><br>
+        <input type="checkbox" id="css" name="programminglanguage" value="C++">
+        <label for="c++">C++</label><br>
+    </form>
+    <p><b>Are you intrested in working offsite</b></p>
+    <form>
+        <input type="radio" id="yes" name="workingoffsite" value="YES">
+        <label for="yes">YES</label><br>
+        <input type="radio" id="no" name="workingoffsite" value="NO">
+        <label for="yes">NO</label><br>
+    </form>
+    <br>
+
+    <input type="submit" value="Register" style="background-color:brown">
+  </form>  
+</body>
+</html>
