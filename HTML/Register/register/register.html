@@ -14,7 +14,7 @@
 
 <body>
 
-  <form action="../register/register.html" method="post">
+  <form action=" " method="post" onsubmit="redirectToAnotherPage()">
     <label for="fname">FirstName :</label>
     <input type="text" id="fname" name="fname" required>
     <br>
@@ -61,6 +61,12 @@
 
     <input type="submit" value="Register" style="background-color: beige;">
   </form>
+  <script>
+    function redirectToAnotherPage(){
+      window.location.href="http://127.0.0.1:5501/login/login.html";
+      return false;
+    }
+  </script>
 </body>
 
 </html>
