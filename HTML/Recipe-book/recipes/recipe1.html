@@ -4,49 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recipie page</title>
-    <style>
-        body{
-            font-family: 'Times New Roman', Times, serif;
-            margin: 0;
-            padding: 0;
-            background-color:bisque;
-        }   
-        nav{
-            background-color: rgb(6, 5, 6);
-            overflow: hidden;
-        }
-        nav ul{
-            list-style-type: none;
-            margin: 0;
-            padding:0;     
-          }
-
-        nav li{
-            float: left;
-        }
-        nav a{
-            display: block;
-            color: white;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-        }
-
-        nav a:hover{
-            background-color: black;
-        }
-    </style>
+    <link rel="stylesheet" href="recipe1.css">
 </head>
 <body>
+    <div class="content">
 
     <header>
-        <h1>My Recipe Website</h1>
-        <img src="../images/logoimage.jpeg" alt="logo" width="100" height="50">  
-     </header>
-
-    <!-- NAVIGATION BAR-->
+        <div class="first-image-container">
+            <img id="first-img" src="../images/logoimage.jpeg" alt="logo">  
+            </div>
+        <h1> My Recipe Website</h1>
+    </header>
     <nav>
-        <ul>
+        <ul class="nav">
             <li><a href="../index.html"> Home</a></li>
             <li><a href="./recipe1.html">Recipe 1</a></li>
             <li><a href="./recipe2.html">Recipe 2</a></li>
@@ -55,46 +25,52 @@
             <li><a href="../contact/contact.html">Contact us</a></li>
         </ul>
     </nav>
-    <section id="recipe1">
-        <h2>Recipe 1 : Beef Roast</h2>
-        <img src="../images/Beef Roast.jpeg" alt="Dish 1" width="350">
-        <div>
+    <section>
+        <h2 class="recipe1"> NAADAN BEEF ROAST</h2>
+        <div class="recipe1-img-container">
+        <img id="img-1-recipe" src="../images/Beef Roast.jpeg" alt="Dish 1">
+        </div>
+        <div class="join-container">
+        <div id="ingredients">
         <h3>Ingredients:</h3>
-        <ol>
-            <li>Beef : 1kg</li>
-            <li>Chilli powder : 1 and half tablespoon</li>
-            <li>Coriander powder : 1 and half tablespoon</li>
-            <li>Turmeric powder : half tablespoon</li>
-            <li>Garam Masala : 1 tablespoon</li>
-            <li>Ginger-Garlic Paste : 1 and half tablespoon</li>
-            <li>Pepper powder : 1 and half tablespoon</li>
-            <li>salt : According to your taste </li>
-            <li>Onion : 2</li>
-            <li>tomato : 1</li>
-            <li>ginger : A small piece</li>
+        <ul >
+            <li>1kg Beef</li>
+            <li>1&1/2 tablespoon Chilli powder</li>
+            <li>1&1/2 tablespoon Coriander powder</li>
+            <li>1/2 tablespoon Turmeric powder</li>
+            <li>1 tablespoon Garam Masala</li>
+            <li>1&1/2 tablespoonGinger-Garlic Paste</li>
+            <li>1&1/2 tablespoonPepper powder</li>
+            <li>salt</li>
+            <li>2 Onion</li>
+            <li>1 tomato</li>
+            <li>A small piece of ginger</li>
             <li>oil</li>
-        </ol>
-        <h1>Steps:</h1>
+        </ul>
+         </div>
+         <div id="steps">
+        <h2>Steps:</h2>
             <pre><h3>
             <li>Step 1: clean the meet properly and put it in a cooker</li>
-            <li>step2: into that cooker add chilli powder, Coriander powder,Turmeric powder
-Garam Masala,Ginger-Garlic Paste,salt,pepper powder,salt and give it a nice mix.</li>
-            <li>step 3: add a little bit of water to avoid any burnings and close the cooker and 
-put it the gas stove and wait for 16 pressure cooker vissle</li>
-               <li>step 4: In another pan add 3 table spoon of oil </li> 
-               <li>step 5: add ginger and when the raw smell of ginger fades then add nicely chopped
-onions and tomato</li>
-               <li>step 6: when it gets sorted add the beef with the water in the cooker which it cooked</li>
-               <li>step 7:wait for it to get dry overtime if you want a little then you should add 
-a boiling hot water into the mix after the water we added from the cooker completly dried with beef
+            <li>step 2 : into that cooker add chilli powder, Coriander powder,Turmeric powder
+            Garam Masala,Ginger-Garlic Paste,salt,pepper powder,salt and give it a nice mix.</li>
+            <li>step 3 : add a little bit of water to avoid any burnings and close the cooker and 
+            put it the gas stove and wait for 16 pressure cooker vissle</li>
+               <li>step 4 : In another pan add 3 table spoon of oil </li> 
+               <li>step 5 : add ginger and when the raw smell of ginger fades then add nicely chopped
+            onions and tomato</li>
+               <li>step 6 : when it gets sorted add the beef with the water in the cooker which it cooked</li>
+               <li>step 7 :wait for it to get dry overtime if you want a little gravey then you should add 
+          a boiling hot water into the mix after the water we added from the cooker completly 
+          dried with beef
                </li>
             </h3></pre>
+        </div>
     </div>
 </section>
 <footer>
-    <br>
-    <br>
     <h3>Email: <a href="mailto:gugusrecipes@gmail.com">gugusrecipes</a></h3>
 </footer>
+</div>
 </body>
 </html>

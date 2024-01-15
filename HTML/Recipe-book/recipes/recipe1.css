@@ -1,16 +1,44 @@
 body{
     margin:0px;
+    padding: 0px;
+    height: 230vh;
+    position: relative;
+    background-attachment: scroll;
+    
 }
-h1{
+body::before{
+    content: "";
+    background-image:url(../images/background1.jpeg) ;
+    background-size:cover ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.3;
+    transition: opacity 0.5s ease;
+    
+}
+.content{
+    position: relative;
+    z-index: 1;
+    padding: 0px;
+}
+
+    h1{
     text-align: center;
     border-bottom: 2px solid ;
     background-image:linear-gradient(45deg, rgb(233, 122, 70)  50% 3%, rgb(239, 239, 244) 50% 100%);
     margin:0px;
 }
-#firstimg{
+#first-img{
     margin:10px 0px 20px 0px;
     width:10vw;
-    border-radius:50%;
+    border-radius:50%
 }
 .first-image-container{
     display:flex;
@@ -26,41 +54,51 @@ ul{
 }
 .nav{
     display:flex;
-    padding: 0px;
+     padding: 0px;
     justify-content: space-around;
     font-weight: bold;
     border-bottom: 2px solid black;
     padding: 16px 0px 16px 0px;
     margin:0px;
     background-color: beige;
+   
 }
-
 .nav a:hover{
     color:rgb(160, 72, 31);
 
         text-shadow: 2px 2px 5px rgb(229, 159, 8);
-    
 }
-h2{
+
+.recipe1{
     text-align: center;
+    color: black; 
 }
-.image-2-container{
+
+.recipe1-img-container{
     display: flex;
     justify-content: center;
+
+}
+#img-1-recipe{
+    margin: 10px,0px,20px,0px;
+    width:25vw;
+    border-radius: 15%;
+}
+.join-container{
+    display: flex;
+
+}
+#ingredients{
     
 }
-#img2{
-    border: 1px solid black;
-    border-radius: 10px;
-}
-#heading3{
-    padding-left: 30px;
+#steps{
+
 }
 footer{
     background-color: rgb(220, 144, 51);
-    padding:20px;
+    padding:10px;
     text-align: center;
-    position: fixed;
+    position:static;
    bottom: 0;
    width:100%;
 }
