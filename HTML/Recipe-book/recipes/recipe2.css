@@ -1,14 +1,14 @@
 body{
     margin:0px;
     padding: 0px;
-    height: 230vh;
+    height: 200vh;
     position: relative;
     background-attachment: scroll;
     
 }
 body::before{
     content: "";
-    background-image:url(../images/background1.jpeg) ;
+    background-image:url(../images/background2.jpeg);
     background-size:cover ;
     background-position: center;
     background-repeat: no-repeat;
@@ -69,19 +69,19 @@ ul{
         text-shadow: 2px 2px 5px rgb(229, 159, 8);
 }
 
-.recipe1{
+.recipe2{
     text-align: center;
     color: black; 
 }
 
-.recipe1-img-container{
+.recipe2-img-container{
     display: flex;
     justify-content: center;
 
 }
-#img-1-recipe{
+#img-2-recipe{
     margin: 10px,0px,20px,0px;
-    width:25vw;
+    width:20vw;
     border-radius: 15%;
 }
 .join-container{
@@ -90,13 +90,14 @@ ul{
 }
 #ingredients{
     font-style: italic;
+    font-weight: bold;
     font-size: large;
     
 }
 #steps{
     word-spacing: 5px;
     padding-left: 70px;
-    padding-top: 25%;
+    padding-top: 15%;
 
 }
 footer{

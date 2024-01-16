@@ -1,14 +1,14 @@
 body{
     margin:0px;
     padding: 0px;
-    height: 230vh;
+    height: 100vh;
     position: relative;
     background-attachment: scroll;
     
 }
 body::before{
     content: "";
-    background-image:url(../images/background1.jpeg) ;
+    background-image:url(../images/background2.jpeg);
     background-size:cover ;
     background-position: center;
     background-repeat: no-repeat;
@@ -37,7 +37,7 @@ body::before{
 }
 #first-img{
     margin:10px 0px 20px 0px;
-    width:10vw;
+    width:15vw;
     border-radius:50%
 }
 .first-image-container{
@@ -68,42 +68,24 @@ ul{
 
         text-shadow: 2px 2px 5px rgb(229, 159, 8);
 }
-
-.recipe1{
+h2{
     text-align: center;
-    color: black; 
+    font-weight: bold;
 }
-
-.recipe1-img-container{
+.form{
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
     justify-content: center;
-
 }
-#img-1-recipe{
-    margin: 10px,0px,20px,0px;
-    width:25vw;
-    border-radius: 15%;
-}
-.join-container{
-    display: flex;
-
-}
-#ingredients{
-    font-style: italic;
-    font-size: large;
-    
-}
-#steps{
-    word-spacing: 5px;
-    padding-left: 70px;
-    padding-top: 25%;
-
+#data{
+    font-size:x-large;
 }
 footer{
     background-color: rgb(220, 144, 51);
-    padding:10px;
+    padding:20px;
     text-align: center;
-    position:static;
+    position: fixed;
    bottom: 0;
    width:100%;
 }

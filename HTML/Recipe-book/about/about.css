@@ -1,7 +1,7 @@
 body{
     margin:0px;
     padding: 0px;
-    height: 230vh;
+    height: 100vh;
     position: relative;
     background-attachment: scroll;
     
@@ -68,36 +68,32 @@ ul{
 
         text-shadow: 2px 2px 5px rgb(229, 159, 8);
 }
-
-.recipe1{
-    text-align: center;
-    color: black; 
-}
-
-.recipe1-img-container{
+.about-img-container{
     display: flex;
     justify-content: center;
-
-}
-#img-1-recipe{
-    margin: 10px,0px,20px,0px;
-    width:25vw;
-    border-radius: 15%;
-}
-.join-container{
-    display: flex;
-
-}
-#ingredients{
-    font-style: italic;
-    font-size: large;
     
 }
-#steps{
+#about-img{
+    border: 1px solid black;
+    border-radius: 10px;
+    margin:10px 0px 20px 0px;
+    width:20vw;
+    border-radius:25%;
+}
+#heading3{
+    padding-left: 30px;
+}   
+h3{
+    text-align: center;
+}
+.aboutus{
+display: flex;
+justify-content: space-around;
+}
+#about{
+    font-style: italic;
     word-spacing: 5px;
-    padding-left: 70px;
-    padding-top: 25%;
-
+    font-weight: bold;
 }
 footer{
     background-color: rgb(220, 144, 51);
