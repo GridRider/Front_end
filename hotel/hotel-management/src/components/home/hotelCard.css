@@ -1,0 +1,7 @@
+.card-main-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 60px;
+  flex-wrap: wrap;
+  gap: 40px;
+}

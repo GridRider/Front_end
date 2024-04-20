@@ -1,0 +1,71 @@
+@import url("./colors.css");
+
+.cedarville-cursive-regular {
+  font-family: "Cedarville Cursive", cursive;
+  font-weight: 2000px;
+  font-style: normal;
+}
+
+.navbar-main-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  background-color: var(--color1);
+}
+.navbar-logo {
+  margin: 0;
+  font-weight: 700;
+  font-size: 1.2em;
+  background-color: var(--color4);
+  padding: 2px 4px;
+  border-radius: 5px;
+}
+.nav-span-1 {
+  color: var(--color2);
+}
+.navbar-list-1 {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+}
+.navbar-list-2 {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+}
+.bookings-button {
+  padding: 1px 2px;
+  background-color: var(--color2);
+  color: var(--text2);
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+.profile-button {
+  padding: 1px 2px;
+  background-color: var(--color1);
+  color: var(--text2);
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+.profile-button:hover {
+  background-color: var(--color2);
+}
+.navbar-list-1 a {
+  padding: 0px 10px;
+  color: var(--text1);
+  text-decoration: none;
+}
+.navbar-list-2 a {
+  padding: 0px 10px;
+  color: var(--text1);
+  text-decoration: none;
+}
+.badge {
+  background-color: var(--color3); /* adjust as needed */
+  color: var(--text2); /* adjust as needed */
+  padding: 2px 5px;
+  border-radius: 50%;
+  margin-left: 5px;
+}

@@ -1,0 +1,13 @@
+body{
+    background-color: var(--color3);
+}
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.search-main {
+  width: 75%;
+  height: 50px;
+  border-radius: 5px;
+}

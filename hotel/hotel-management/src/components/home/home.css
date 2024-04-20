@@ -1,0 +1,75 @@
+.slide1-heading {
+  display: inline-block; /* Ensures the background spans exactly the width of the text */
+  background-image: linear-gradient(
+    to right,
+    rgba(128, 99, 12, 0.5),
+    rgba(208, 225, 112, 0.7)
+  );
+  padding: 10px;
+  border-radius: 10cm;
+  /* Other styles */
+  color: rgb(84, 11, 11);
+}
+
+.slide1-text {
+  display: inline-block; /* Ensures the background spans exactly the width of the text */
+  background-image: linear-gradient(
+    to right,
+    rgba(128, 99, 12, 0.5),
+    rgba(208, 225, 112, 0.7)
+  );
+  padding: 10px;
+  border-radius: 10cm;
+  /* Other styles */
+  color: rgb(84, 11, 11);
+}
+.slide2-heading {
+  display: inline-block; /* Ensures the background spans exactly the width of the text */
+  background-image: linear-gradient(
+    to right,
+    rgba(128, 99, 12, 0.5),
+    rgba(208, 225, 112, 0.7)
+  );
+  padding: 10px;
+  border-radius: 10cm;
+  /* Other styles */
+  color: black;
+}
+
+.slide2-text {
+  display: inline-block; /* Ensures the background spans exactly the width of the text */
+  background-image: linear-gradient(
+    to right,
+    rgba(128, 99, 12, 0.5),
+    rgba(208, 225, 112, 0.7)
+  );
+  padding: 10px;
+  border-radius: 10cm;
+  /* Other styles */
+  color: black;
+}
+.slide3-heading {
+  display: inline-block; /* Ensures the background spans exactly the width of the text */
+  background-image: linear-gradient(
+    to right,
+    rgba(128, 99, 12, 0.5),
+    rgba(208, 225, 112, 0.7)
+  );
+  padding: 10px;
+  border-radius: 10cm;
+  /* Other styles */
+  color: black;
+}
+
+.slide3-text {
+  display: inline-block; /* Ensures the background spans exactly the width of the text */
+  background-image: linear-gradient(
+    to right,
+    rgba(128, 99, 12, 0.5),
+    rgba(208, 225, 112, 0.7)
+  );
+  padding: 10px;
+  border-radius: 10cm;
+  /* Other styles */
+  color: black;
+}

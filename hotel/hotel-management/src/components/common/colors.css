@@ -1,0 +1,37 @@
+:root {
+  --color1: #8A78BF !important;
+  --color2: #01905d !important;
+  --color3: #9485b1 !important;
+  --color4: #e4f1f9 !important;
+  --text1: black;
+  --text2: white;
+}
+.btn {
+  /* Common button styles */
+  padding: 2px 2px;
+  border: none;
+  cursor: pointer;
+  height:30px
+}
+
+.btn-primary {
+  /* Primary button styles */
+  background-color: var(--color1);
+  color: var(--text2);
+}
+
+.btn-secondary {
+  /* Secondary button styles */
+  background-color: var(--color2);
+  color: var(--text2);
+}
+
+.btn-tertiary {
+  /* Tertiary button styles */
+  background-color: var(--color3);
+  color: var(--text2);
+}
+.btn-close{
+    background-color: red;
+    color:white;
+}
