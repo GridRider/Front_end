@@ -31,7 +31,7 @@ export const destinations = [
     name: "Alleppey",
     hotel_ids: [4, 17],
     img: {
-      src: "path_to_alleppey_image.jpg",
+      src: "",
       alt: "Alleppey Image",
     },
   },
@@ -40,7 +40,7 @@ export const destinations = [
     name: "Kovalam",
     hotel_ids: [5],
     img: {
-      src: "path_to_kovalam_image.jpg",
+      src: "",
       alt: "Kovalam Image",
     },
   },
@@ -49,7 +49,7 @@ export const destinations = [
     name: "Wayanad",
     hotel_ids: [6, 19],
     img: {
-      src: "path_to_wayanad_image.jpg",
+      src: "",
       alt: "Wayanad Image",
     },
   },
@@ -58,7 +58,7 @@ export const destinations = [
     name: "Varkala",
     hotel_ids: [7, 13],
     img: {
-      src: "path_to_varkala_image.jpg",
+      src: "",
       alt: "Varkala Image",
     },
   },
@@ -67,7 +67,7 @@ export const destinations = [
     name: "Thrissur",
     hotel_ids: [8],
     img: {
-      src: "path_to_thrissur_image.jpg",
+      src: "",
       alt: "Thrissur Image",
     },
   },
@@ -76,7 +76,7 @@ export const destinations = [
     name: "Kumarakom",
     hotel_ids: [9],
     img: {
-      src: "path_to_kumarakom_image.jpg",
+      src: "",
       alt: "Kumarakom Image",
     },
   },
@@ -85,7 +85,7 @@ export const destinations = [
     name: "Thekkady",
     hotel_ids: [10],
     img: {
-      src: "path_to_thekkady_image.jpg",
+      src: "",
       alt: "Thekkady Image",
     },
   },
@@ -94,7 +94,7 @@ export const destinations = [
     name: "Cochin",
     hotel_ids: [11],
     img: {
-      src: "path_to_cochin_image.jpg",
+      src: "",
       alt: "Cochin Image",
     },
   },
@@ -103,7 +103,7 @@ export const destinations = [
     name: "Kanyakumari",
     hotel_ids: [12],
     img: {
-      src: "path_to_kanyakumari_image.jpg",
+      src: "",
       alt: "Kanyakumari Image",
     },
   },
@@ -112,7 +112,7 @@ export const destinations = [
     name: "Kozhikode",
     hotel_ids: [14],
     img: {
-      src: "path_to_kozhikode_image.jpg",
+      src: "",
       alt: "Kozhikode Image",
     },
   },
@@ -121,7 +121,7 @@ export const destinations = [
     name: "Trivandrum",
     hotel_ids: [15],
     img: {
-      src: "path_to_trivandrum_image.jpg",
+      src: "",
       alt: "Trivandrum Image",
     },
   },
@@ -130,7 +130,7 @@ export const destinations = [
     name: "Kannur",
     hotel_ids: [16],
     img: {
-      src: "path_to_kannur_image.jpg",
+      src: "",
       alt: "Kannur Image",
     },
   },
@@ -139,7 +139,7 @@ export const destinations = [
     name: "Idukki",
     hotel_ids: [19],
     img: {
-      src: "path_to_idukki_image.jpg",
+      src: "",
       alt: "Idukki Image",
     },
   },
@@ -148,7 +148,7 @@ export const destinations = [
     name: "Kasargod",
     hotel_ids: [21],
     img: {
-      src: "path_to_kasargod_image.jpg",
+      src: "",
       alt: "Kasargod Image",
     },
   },
