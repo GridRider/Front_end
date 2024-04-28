@@ -1,19 +1,15 @@
 // import { hotels } from "../../data/hotelData";
 import { destinations } from "../../data/destinationData";
 import DestinationCard from "./DestinationCard";
-
+import styles from './destination.module.css'
 
 function Destination() {
   return (
     <>
       
       <div
-        style={{
-          display: "flex",
-          gap: "20px",
-          flexWrap: "wrap",
-          justifyContent: "center",
-        }}
+       
+        className={styles.destination_card_list_container}
       >
         {destinations.map((destination) => (
           <DestinationCard
