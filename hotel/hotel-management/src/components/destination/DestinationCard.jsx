@@ -3,6 +3,8 @@ import Card from "react-bootstrap/Card";
 import styles from './destination.module.css'
 import placeholder from '../../assets/placeholder1.webp'
 import { StarBorderOutlined } from "@mui/icons-material";
+import ReactStars from "react-rating-stars-component";
+
 
 function DestinationCard({name,image,alt}) {
   return (<>
@@ -24,7 +26,17 @@ function DestinationCard({name,image,alt}) {
         </p>
         <p className={styles.card_text}>
           Rating:
-          <StarBorderOutlined/>
+          <ReactStars
+    // onChange={ratingChanged}
+    style={{display:'inline'}}
+    size={24}
+    isHalf={true}
+    emptyIcon={<i className="far fa-star"></i>}
+    count={5}
+    halfIcon={<i className="fa fa-star-half-alt"></i>}
+    fullIcon={<i className="fa fa-star"></i>}
+    activeColor="#ffd700"
+  />
         </p>
         <div className={styles.card_button_container}>
         <button className="btn1">Show Hotels</button>
